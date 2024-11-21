@@ -1,0 +1,53 @@
+1- what is Emmet?
+ans - Emmet is the tool that helps developer to write and edit the code faster.
+ b- what is Boilerplate?
+ans - Boilerplate is the resuable piece of code with little to no modification
+
+2- difference between library and framework?
+ans - 
+library - library is the pre-written, verified abd tested code that performs a specific task or add the specific function in code and resuable.
+framework - framework is also a prewritten code but also contains the whole structure of application.
+
+Diff.  between framework and library - 
+library are less comples than framework.
+both libraray and framework are resubale .
+framework contains the database of codebase.
+A codebase has many library but only a single framework.
+
+
+3- what is CDN?
+ans - CDN is Content delivery network, is the network of server that delivers content between different users based on their location.
+
+4- Why is React known as React?
+ans- it only reacts when we apply change in component's state or props.
+
+5- what is crossorigin in script tag?
+ans - script on one domain try to fetch resources from other domain.
+
+
+6-difference between React and React DOM?
+React - it is a JS librabry (prewriten code having some functionality), used to build UI.
+ReactDOM - Renders React component into webpage. 
+            ReactDOM is package which  connects ReactDOM with browser's DOM.
+
+***- React and ReactDOM is the global object in console
+
+
+7 - What is difference between react.development.js and react.production.js files via CDN?
+react.development.js - it consist devlopment codebase build , which includes error message , warning 
+react.production.js - is fast and performance optimized code .
+
+
+ 8 -What is async and defer? 
+ async - the deafult system property to run code , in asynch nature code runs in asynch manner or in no paticular order, code run as soon as they loaded.
+
+ defer - in defer property code only follow synchronous nature, means code runs sequentially.
+
+ 9- what is props in React -  props means property ,  it is similar as attributes of HTML.
+
+ 10- what is the smallest program in JS and React?
+ i- smallest programe of JS-  empty files.
+ ii- smallest programe of react - insert react on code
+
+
+

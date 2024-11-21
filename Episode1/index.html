@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>episode 1 </title>
+</head>
+<body>
+    <div class="des"></div>
+    
+    
+<!-- how to link react from CDN
+ step 1 - copy a script from CDN website and paste -->
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- create hello world using different method -->
+<!-- 1- create hello world using HTML 
+type hello world inside the body tag 
+-->
+
+<!-- 2- create hello world using js
+ 1- create the element - document.createElement("tagName").innerHTML;
+1-  access the destination element - document.querySelector("");
+2- insert element using - destination.appendChild(element);
+-->
+<!-- <script >
+
+    //step 1 - create element using document.createElement;
+    // step 2 - insert data inside the element using ineer html
+    // step 3- access the destination using doc.getElement or querySelector.
+    // step 4 - elemet append in destination
+
+let head = document.createElement("h1");
+head.innerHTML = "Hello World";
+let dest = document.getElementsByTagName("body");
+
+dest[0].appendChild(head);
+//dest gives eoor here, so i use dest[0];
+</script>  -->
+
+
+<!-- 3- using react CDN 
+step 1 - import script from react CDN website
+step 2 -  create elment using React.createElement
+step 3 - access the destination using reactDOM.createRoot(documnet.queryselector(""))
+step 4 - render the element in destination , using .render method
+-->
+<script>
+
+    let con = React.createElement("h1",{},"Hello World!");
+    let dest = ReactDOM.createRoot(document.querySelector("body"));
+    dest.render(con);
+</script>
+
+
+
+</body>
+</html>

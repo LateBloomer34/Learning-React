@@ -1,0 +1,31 @@
+1- What is `NPM`?
+NPM stands for NODE Package Manager,  which  manages the js packages. it is used to install package 
+It is a tool for JS packages. It helps with installing various packages and resolving their various dependencies. 
+
+2- What is `Parcel/Webpack`? Why do we need it?
+ans- Parcel is bundler, 
+Bundler is a tool for combine multiple js file or modules, that helps minify and clean and make compatible code.
+parcel is a zero config bundler. only tell it to run, no need to add config for differnet operations 
+ 
+
+3--  What is `.parcel-cache` - folder where info stores about all files
+directory where Parcel stores information about your project's assets, dependencies, and transformations.
+
+4-  What is `npx` ? - node package xecuter - 
+npx stands for Node package xecute, NPX allow developer execute packeage from NPM registry.  
+ it creates a server 
+
+
+ NPM- manage the node package - install / uninstall
+ NPX-  execute the packages
+
+
+5-  What is difference between `dependencies` vs `devDependencies`
+
+dependencies is the packeage having some functionality, require for the applicaton to run in production. eg - for testing, local devlopment etc.
+devDependencies -  dependencies which is only needed in devlopment.
+
+6- What is Tree Shaking?
+remove unwanted code from the codebase, can also say removal of dead code.
+
+7-
